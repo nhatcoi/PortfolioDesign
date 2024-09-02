@@ -14,6 +14,9 @@
     </style>
 </head>
 <body>
+    <!-- overlay -->
+    <section id="overlay"></section>
+
     <!-- header -->
     <header>
         <div class="container">
@@ -24,10 +27,10 @@
                 </div>
                 <!-- links -->
                 <ul class="navbar__links">
-                    <li class="navbar__link"><a href="#">Work</a></li>
-                    <li class="navbar__link"><a href="#">About Me</a></li>
-                    <li class="navbar__link"><a href="#">Resume</a></li>
-                    <a href="#"><button class="navbar__btn">Contact</button></a>
+                    <li class="navbar__link"><a href="#works">Work</a></li>
+                    <li class="navbar__link"><a href="#banner">About Me</a></li>
+                    <li class="navbar__link"><a href="#things">Resume</a></li>
+                    <a href="#footer"><button class="navbar__btn">Contact</button></a>
                 </ul>
                 <!-- menu button -->
                 <div class="navbar__icons">
@@ -61,30 +64,38 @@
     <!-- things -->
     <section id="things">
         <div class="container">
+            <!-- decoration -->
+            <div class="things__dec">
+                <img src="img/things-dec-l.png" alt="decoration">
+            </div>
+            <div class="things__dec">
+                <img src="img/things-dec-r.png" alt="decoration">
+            </div>
+
             <!-- heading -->
             <h2>Things I Do</h2>
             <!-- item 1 -->
-            <div class="things__item">
+            <div class="thing__item">
                 <img src="img/things-item-1.png" alt="illustration of woman">
-                <div class="thing-item__item--heading">
+                <div class="thing__item--heading">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut est soluta expedita consectetur veritatis magnam mollitia possimus, adipisci voluptatum natus temporibus ex maxime tempora repudiandae!</p>
                 </div>
             </div>
 
             <!-- item 2 -->
-            <div class="things__item">
+            <div class="thing__item">
                 <img src="img/things-item-2.png" alt="illustration of woman">
-                <div class="thing-item__item--heading">
+                <div class="thing__item--heading">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut est soluta expedita consectetur veritatis magnam mollitia possimus, adipisci voluptatum natus temporibus ex maxime tempora repudiandae!</p>
                 </div>
             </div>
 
             <!-- item 3 -->
-            <div class="things__item">
+            <div class="thing__item">
                 <img src="img/things-item-3.png" alt="illustration of desk">
-                <div class="thing-item__item--heading">
+                <div class="thing__item--heading">
                     <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut est soluta expedita consectetur veritatis magnam mollitia possimus, adipisci voluptatum natus temporibus ex maxime tempora repudiandae!</p>
                 </div>
@@ -92,7 +103,60 @@
         </div>
     </section>
 
+    <!-- works -->
+    <section id="works">
+        <div class="container">
+            <!-- decoration -->
+            <div class="works__dec">
+                <img src="img/work-dec.png" alt="Work decoration">
+            </div>
+            <div class="works__dec">
+                <img src="img/work-dec.png" alt="Work decoration">
+            </div>
+            <!-- heading -->
+            <h2>Recent Work</h2>
+            <div class="works__img">
+                <div class="works__img--single">
+                    <img src="img/work-1.png" alt="bag">
+                </div>
+                <div class="works__img--single">
+                    <img src="img/work-2.png" alt="bag">
+                </div>
+                <div class="works__img--single">
+                    <img src="img/work-3.png" alt="bag">
+                </div>
+                <div class="works__img--single">
+                    <img src="img/work-4.png" alt="bag">
+                </div>
+            </div>
 
+            <!-- button -->
+            <div class="works__btn">
+                <a href="#"><button>View Works</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <!-- decoration -->
+        <div class="footer__dec">
+            <img src="img/things-dec-l.png" alt="decoration">
+        </div>
+        <!-- img -->
+        <div class="footer__img">
+            <img src="img/footer-img.png" alt="illustration of woman">
+        </div>
+        <!-- text -->
+        <div class="footer__heading">
+            <h1>Ready to make something amzing?</h1>
+            <!-- contact -->
+            <div class="footer__contact">
+                <a href="tel:0376696037"><i class="fas fa-phone-alt"></i><p>037-6696-037</p></a>
+                <a href="mailto:inodev.0604@gmail.com"><i class="fas fa-envelope"></i><p>inodev.0604@gmail.com</p></a>
+            </div>
+        </div>
+    </footer>
     
     <script src="https://kit.fontawesome.com/3e594664a8.js" crossorigin="anonymous"></script> 
     <script src="./js/main.js"></script>
